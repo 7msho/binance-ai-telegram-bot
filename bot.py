@@ -9,7 +9,7 @@ logging.basicConfig(
     level=logging.INFO
 )
 
-TOKEN = os.getenv("TOKEN")
+TOKEN = os.getenv("8655878252:AAFGMnWSDJCcyDEgCgfGCqDMuSbwSuxD-ls")
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
