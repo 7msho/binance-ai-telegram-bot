@@ -2,7 +2,7 @@ import requests
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
-TOKEN = "PUT_YOUR_BOT_TOKEN"
+TOKEN = 8655878252:AAFnf3Wjo7FDFPkR-PhHqgC9AVCs0YEYzlk
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("🚀 Welcome to Binance Opportunity Bot")
